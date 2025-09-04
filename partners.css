@@ -1,0 +1,27 @@
+.partners{
+    text-align: center;
+    padding: 100px;
+    background-color: aliceblue;
+}
+.partners h2{
+    font-size: 35px;
+    color:black
+}
+.partners p{
+    font-size: 15px;
+    color:black
+}
+
+.partner-Logo{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.partner-Logo img{
+
+    width: 120px;
+    height: 95px;
+    background-color: aliceblue;
+   
+    
+}

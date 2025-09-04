@@ -1,0 +1,58 @@
+.helping {
+  background-color: #f8f9fa;
+  padding: 50px;
+}
+
+.helping-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.helping-text {
+  flex: 1;
+}
+
+.helping-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.helping-text p {
+  font-size: 16px;
+  color: #555;
+}
+
+.helping-stats {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2x2 grid */
+  gap: 30px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.stat-item img {
+  width: 40px;
+  height: 40px;
+}
+
+.stat-item h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #2e7d32; /* green highlight */
+}
+
+.stat-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}

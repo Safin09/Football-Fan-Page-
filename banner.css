@@ -1,0 +1,35 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #161236;
+}
+.banner-element{
+    width: 50%;
+}
+.banner-element h1{
+    font-size: 50px;
+    color: rgb(235, 14, 14);
+}
+.banner-element p{
+    font-size: 20px;
+    color: #f6f621;
+}
+.banner-button{
+    padding: 10px 20px;
+    background-color: #edd311;
+    color:rgb(238, 37, 37);
+    border-radius: 5px;
+}
+.banner-img{
+    width: 60%;
+    height: 350px;
+}
+.banner-img img{
+    max-width:95%;
+    height:95%;
+    border-radius: 5px;
+    box-shadow:0 5px 15px rgb(5, 5, 5);
+}
+
+

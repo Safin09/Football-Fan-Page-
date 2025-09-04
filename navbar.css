@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #650202;
+}
+.logo a{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(241, 218, 10);
+    text-decoration: none;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgb(173, 185, 227);
+}
+.cta-button{
+    padding: 14px 18px;
+    background-color: rgb(230, 197, 7);
+    color:azure;
+    border-color: rgb(138, 138, 6);
+   
+    border-radius: 5px;
+}
+
+

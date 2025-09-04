@@ -1,0 +1,6 @@
+.footer { background-color: #1a1a1a; color: #fff; padding: 20px; text-align: center; }
+  .footer-content { display: flex; flex-direction: column; gap: 10px; }
+  .social-icons a, .footer-links a { color: #fff; text-decoration: none; margin: 0 10px; }
+  @media (max-width: 768px) {
+    .footer-content { align-items: center; }
+  }
